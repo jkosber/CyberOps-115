@@ -1,8 +1,6 @@
-# CyberOps-115 — Cyber Ops (CSIA 115)
+# CyberOps-115 — CSIA 115 Cyber Ops (Cisco CyberOps Associate)
 
-My Spring 2026 coursework for **Ivy Tech CSIA 115 — Cyber Ops** at Ivy Tech Kokomo. Eight modules of the Cisco Networking Academy *CyberOps Associate* curriculum, taken as an 8-week section (Jan 18 – Mar 11, 2026). The course is aimed at the entry-level Security SOC Analyst / Incident Responder track and ends with the CyberOps Associate Skills Exam and Certification Practice Exam.
-
-Each course module covers a chunk of Cisco's underlying CyberOps Associate book modules. The mapping (visible from the group-exam titles in my schedule) was:
+My Spring 2026 coursework at Ivy Tech Kokomo — 8-week section (Jan 18 – Mar 11). Eight modules of the Cisco Networking Academy *CyberOps Associate* curriculum, aimed at the entry-level Security SOC Analyst / Incident Responder track. Ended with the CyberOps Associate Skills Exam (practical) and Certification Practice Exam, both passed. Each course module covers a chunk of Cisco's underlying book modules:
 
 | Course module | Book modules |
 | :---  | :--- |
@@ -14,42 +12,6 @@ Each course module covers a chunk of Cisco's underlying CyberOps Associate book 
 | M06   | 18–23 (Network defense; Cryptography; Endpoint protection) |
 | M07   | 24–28 (Protocols and log files; Analyzing security data) |
 | M08   | Final + Skills Exam + Certification Practice Exam |
-
-## Course information
-
-| Field            | Detail                                                                                |
-| :--------------- | :------------------------------------------------------------------------------------ |
-| Course number    | CSIA 115                                                                              |
-| Course title     | Cyber Ops                                                                             |
-| School / program | Information Technology — Cyber Security / Information Assurance                       |
-| Credit hours     | 3                                                                                     |
-| Contact hours    | Lecture 2, Lab 2                                                                      |
-| Prerequisites    | SVAD 111 — Linux and Virtualization Technologies Fundamentals                         |
-| Term             | Spring 2026 — 8-week section, Jan 18 – Mar 11, 2026                                   |
-| Curriculum       | Cisco Networking Academy — CyberOps Associate                                         |
-
-## Catalog description
-
-> This course introduces the core security concepts and skills needed to monitor, detect, analyze and respond to cybercrime, cyberespionage, insider threats, advanced persistent threats, regulatory requirements, and other cybersecurity issues facing organizations. It emphasizes the practical application of the skills needed to maintain and ensure security operational readiness of secure networked systems. The skills developed in the curriculum prepares students for a career in the rapidly growing area of cybersecurity operations working in or with a security operations center (SOC) in entry-level job roles such as Security SOC Analyst and Incident Responder.
-
-## What you're supposed to be able to do by the end
-
-1. Explain the role of the Cybersecurity Operations Analyst.
-2. Use OS features that support cybersecurity analysis.
-3. Explain how network infrastructure operates and classify network attacks.
-4. Analyze network protocols and services and use monitoring tools to identify attacks.
-5. Prevent malicious access to computer hosts and data.
-6. Explain the impact of cryptography on network security monitoring.
-7. Investigate and evaluate endpoint vulnerabilities and network security alerts.
-8. Use virtual machines to implement, evaluate, and analyze cybersecurity threat events.
-9. Analyze network intrusion data to identify compromised hosts and vulnerabilities.
-10. Apply incident response models (CSIRT and NIST) to manage security incidents.
-11. Understand how a SOC team detects and responds to security incidents and protects the organization's information.
-12. Understand how modern organizations are dealing with cybercrime, cyberespionage, insider threats, APTs, regulatory requirements, and other current issues.
-
-## Topical content
-
-Cybersecurity and the Security Operations Center · Protecting the network · Windows operating system · Cryptography and the Public Key Infrastructure · Linux operating system · Network protocols and services · Network infrastructure · Principles of network security · Endpoint security and analysis · Security monitoring · Incident response and handling.
 
 ## Tools
 
