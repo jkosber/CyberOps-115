@@ -1,33 +1,20 @@
 # CyberOps-115 — Cisco CyberOps Associate
 
-Coursework for **Ivy Tech CSIA 115 / Cisco Networking Academy: CyberOps Associate**, completed Spring 2026 at Ivy Tech Kokomo. Eight modules of Cisco CyberOps Associate curriculum covering security operations fundamentals, attack analysis, defense methodology, and hands-on SIEM / IDS exposure through Wireshark, Security Onion, and Snort.
+My Spring 2026 coursework for **Ivy Tech CSIA 115 / Cisco Networking Academy: CyberOps Associate** at Ivy Tech Kokomo. Eight modules walking through the Cisco CyberOps Associate curriculum — security operations fundamentals, attack analysis, defense methodology, and hands-on SIEM / IDS work with Wireshark, Security Onion, and Snort.
 
-## Topics covered
+## What's covered
 
-- Cybersecurity overview and the threat landscape
-- Windows and Linux operating systems from a SOC analyst's perspective
-- Network protocols, IP addressing, and connectivity verification under inspection
-- Ethernet, ARP, and packet-flow analysis
-- Transport-layer behavior and common application protocols
-- Network security infrastructure and access control
-- Attackers, tools, and common attack techniques
-- Foundations of cyber defense
-- Threat intelligence concepts
-- Cryptography — hashing, symmetric encryption (OpenSSL), TLS vs Telnet, certificate authority stores
-- SIEM and log/alert analysis (Security Onion)
-- Endpoint protection concepts
-- Intrusion detection — Snort and firewall rule analysis
-- Investigative workflows — extracting executables from PCAPs, 5-tuple host isolation, malware exploit analysis, Windows host compromise investigation, incident handling
+The course moves from "what does a SOC analyst actually do" through OS-level visibility (Windows + Linux), into protocol analysis (Wireshark, traceroute, Nmap), then into the SOC-style content — log review, alert triage, cryptography in practice, NetFlow, Snort rules, and full incident-handling workflows that extract executables from PCAPs, isolate compromised hosts via 5-tuple, and walk through malware investigations on a Windows host.
 
-## Tools and technologies
+## Tools used across the modules
 
-- **Security Onion** — SIEM platform; log/alert analysis exercises
-- **Wireshark** — packet inspection for handshake, frame, and application-layer analysis
-- **Cisco Packet Tracer** — `.pka` simulations for ACL demonstration, packet flow, NetFlow, logging from multiple sources
-- **Snort** — IDS rule and firewall rule labs
-- **Nmap** — reconnaissance and discovery
-- **OpenSSL** — practical encryption / decryption / hashing
-- **PowerShell, Linux CLI** — host investigation utilities
+- **Security Onion** — the SIEM platform; log and alert analysis exercises.
+- **Wireshark** — packet inspection for handshakes, frames, and application-layer traffic.
+- **Cisco Packet Tracer** — `.pka` files for ACL demos, packet-flow ID, NetFlow, multi-source logging.
+- **Snort** — IDS and firewall-rule labs.
+- **Nmap** — reconnaissance.
+- **OpenSSL** — hashing, encrypt/decrypt practice.
+- **PowerShell + Linux CLI** — host-side investigation utilities.
 
 ## Repository layout
 
@@ -36,30 +23,30 @@ CyberOps115/
   Module01/  Threat landscape, VM setup, attacker mindset, Windows processes / registry / accounts
   Module02/  Windows PowerShell + Task Manager; Linux shell, files, servers, logs, permissions
   Module03/  Network basics — traceroute, Wireshark intro, Packet Tracer addressing verify, Nmap, TCP 3-way handshake
-  Module04/  Application-layer Wireshark (DNS, TCP/UDP, HTTP/HTTPS); packet flow and ACL demonstrations
+  Module04/  Application-layer Wireshark (DNS, TCP/UDP, HTTP/HTTPS); packet flow and ACL demos
   Module05/  SOC visibility — logging, DNS investigation, MySQL attack reading, server-log review
   Module06/  Cryptography — hashing, OpenSSL, Telnet vs SSH in Wireshark, Certificate Authority stores
   Module07/  NetFlow, Snort rules, data normalization, PCAP exec extraction, 5-tuple isolation, malware / Windows-host investigation, incident handling
-  Module08/  CA v1.0 Skills Assessment (capstone) and Skills Exam Report Template
+  Module08/  CA v1.0 Skills Assessment capstone + Skills Exam Report Template
 ```
 
-## Module guide
+## Module walkthrough
 
-- **Module 1 — Threat landscape and the defender mindset.** Top-hacker case study, virtual-lab installation, learning the details of attacks, "becoming a defender" reflection, plus Windows process/thread/handle, registry, and user-account labs.
-- **Module 2 — OS visibility for SOC analysts.** Windows PowerShell, Task Manager, and system-resource monitoring labs; Linux CLI / text-file / server / log-file / filesystem-permission labs.
-- **Module 3 — Network analysis basics.** Tracing a route, Wireshark introduction, IPv4 / IPv6 addressing verification in Packet Tracer (`.pka` included), Ethernet frame inspection, TCP 3-way handshake capture, and the first Nmap exploration.
-- **Module 4 — Application-layer protocol analysis.** Wireshark labs on DNS over UDP, TCP/UDP comparison, and HTTP/HTTPS traffic; Packet Tracer labs identifying packet flow and demonstrating ACL effects (`.pka` included).
-- **Module 5 — SOC operations and log analysis.** "What's Going On" class activity, Packet Tracer logging-of-network-activity lab, DNS-traffic exploration, MySQL-database attack reading, and server-log analysis labs.
-- **Module 6 — Cryptography in practice.** Hashing lab, OpenSSL encrypt/decrypt and attacker-tool comparisons, Telnet vs SSH in Wireshark, certificate authority store inspection, plus a class activity creating cryptographic codes.
-- **Module 7 — Incident response and threat hunting.** NetFlow implementation and multi-source logging in Packet Tracer; Snort + firewall rules; regular expressions for log triage; extracting executables from PCAPs; HTTP and DNS interpretation to isolate threat actors; 5-tuple host isolation; malware-exploit investigation; investigating an attack against a Windows host; full incident-handling lab.
-- **Module 8 — Skills Assessment capstone.** CA v1.0 Skills Assessment and matching Skills Exam Report Template.
+- **Module 1 — Threat landscape and the defender mindset.** Top-hacker case study; lab installing the class VMs; learning the details of attacks; the "becoming a defender" reflection; Windows labs on processes / threads / handles, the registry, and user accounts.
+- **Module 2 — OS-level visibility for SOC analysts.** Windows PowerShell, Task Manager, and system-resource monitoring labs. Linux CLI side — text files in the shell, exploring the shell itself, Linux servers, locating log files, navigating the filesystem with permissions.
+- **Module 3 — Network analysis basics.** Tracing routes, first Wireshark intro lab, verifying IPv4 / IPv6 addressing in Packet Tracer (`.pka` saved), examining Ethernet frames, capturing the TCP 3-way handshake, exploring Nmap.
+- **Module 4 — Application-layer protocols under inspection.** Wireshark labs on DNS over UDP, comparing TCP/UDP captures, HTTP and HTTPS traffic. Packet Tracer labs identifying packet flow and demonstrating ACL effects.
+- **Module 5 — SOC operations and log analysis.** A "what's going on" class activity, Packet Tracer logging-of-network-activity lab, exploring DNS traffic, reading a MySQL-database attack, and server-log review.
+- **Module 6 — Cryptography in practice.** Hashing lab, OpenSSL encrypt/decrypt, an attacker-tool decrypt for contrast, Telnet vs SSH side-by-side in Wireshark, inspecting certificate authority stores, plus a class activity on creating cryptographic codes.
+- **Module 7 — Incident response and threat hunting.** NetFlow implementation and multi-source logging in Packet Tracer. Snort + firewall rules. Regex for log triage. Extracting an executable from a PCAP. HTTP and DNS interpretation to isolate a threat actor. 5-tuple host isolation. Malware-exploit investigation. Investigating an attack on a Windows host. Full incident-handling lab.
+- **Module 8 — Skills Assessment capstone.** CA v1.0 Skills Assessment and the matching Skills Exam Report Template.
 
-## Status
+## Outcome
 
-Course completed Spring 2026 — counted toward the Cyber Security & Information Assurance Technical Certificate at Ivy Tech Kokomo. Cisco Networking Academy CyberOps Associate course materials.
+Course completed Spring 2026 — counts toward the Cyber Security & Information Assurance Technical Certificate at Ivy Tech Kokomo. Cisco Networking Academy CyberOps Associate course materials.
 
-## Related
+## Related repos
 
-- [Networking-109](https://github.com/jkosber/Networking-109) — CCNA Part 1, network foundations
-- [CSIA-210-Network-Protocol-Analysis](https://github.com/jkosber/CSIA-210-Network-Protocol-Analysis) — deeper packet-level analysis
-- [IntroToCybersecurity-105](https://github.com/jkosber/IntroToCybersecurity-105) — cybersecurity fundamentals context
+- [Networking-109](https://github.com/jkosber/Networking-109) — CCNA Part 1 network foundations that the SOC work here assumes.
+- [CSIA-210-Network-Protocol-Analysis](https://github.com/jkosber/CSIA-210-Network-Protocol-Analysis) — deeper packet-level analysis.
+- [IntroToCybersecurity-105](https://github.com/jkosber/IntroToCybersecurity-105) — cybersecurity fundamentals.
