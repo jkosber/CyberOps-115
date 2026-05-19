@@ -49,10 +49,6 @@ CyberOps115/
 - **Module 7 — Protocols, log analysis, incident response.** NetFlow implementation (25.3.10) and multi-source logging (25.3.11) in Packet Tracer. Snort + firewall rules (26.1.7). Regular expressions for log triage (27.2.9). Converting data into a universal format (27.1.5). Extracting an executable from a PCAP (27.2.10). HTTP and DNS interpretation to isolate a threat actor (27.2.12). 5-tuple host isolation (27.2.14). Malware-exploit investigation (27.2.15). Investigating an attack against a Windows host (27.2.16). Full incident-handling lab (28.4.13). Modules 24–25 + 26–28 Group Exams.
 - **Module 8 — Final exams.** Practice Final Exam, Final Exam, **Skills Exam** (practical) with its report template, plus the Cisco CyberOps Associate **Certification Practice Exam**. `CA v1.0 Skills Assessment.docx` and `SkillsExamReportTemplate.docx` in the repo are from this module.
 
-## Outcome
-
-Course completed Spring 2026 — counts toward the Cyber Security & Information Assurance Technical Certificate at Ivy Tech Kokomo. Cisco Networking Academy CyberOps Associate course materials. Final exam, Skills Exam, and Certification Practice Exam passed.
-
 ## Related repos
 
 - [Networking-109](https://github.com/jkosber/Networking-109) — CCNA Part 1 networking foundations.
