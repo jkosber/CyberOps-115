@@ -27,15 +27,14 @@ My Spring 2026 coursework at Ivy Tech Kokomo — 8-week section (Jan 18 – Mar 
 ## Repository layout
 
 ```
-CyberOps115/
-  Module01/  Threat landscape, VM setup, attacker mindset, Windows processes / registry / accounts
-  Module02/  Windows PowerShell + Task Manager; Linux shell, files, servers, logs, permissions
-  Module03/  Network fundamentals — traceroute, Wireshark intro, Packet Tracer addressing verify, Nmap, TCP 3-way handshake
-  Module04/  Application-layer Wireshark (DNS, TCP/UDP, HTTP/HTTPS); packet flow and ACL demos
-  Module05/  Threats and attacks — DNS investigation, MySQL attack reading, server-log review, NetFlow PT
-  Module06/  Cryptography + endpoint defense — hashing, OpenSSL, Telnet vs SSH in Wireshark, CA stores
-  Module07/  Protocols / log analysis — NetFlow PT, Snort rules, regex, PCAP exec extraction, 5-tuple isolation, malware / Windows-host investigation, incident handling
-  Module08/  Skills Assessment capstone + Skills Exam Report Template (final / practical)
+Module01/  Threat landscape, VM setup, attacker mindset, Windows processes / registry / accounts
+Module02/  Windows PowerShell + Task Manager; Linux shell, files, servers, logs, permissions
+Module03/  Network fundamentals — traceroute, Wireshark intro, Packet Tracer addressing verify, Nmap, TCP 3-way handshake
+Module04/  Application-layer Wireshark (DNS, TCP/UDP, HTTP/HTTPS); packet flow and ACL demos
+Module05/  Threats and attacks — DNS investigation, MySQL attack reading, server-log review, NetFlow PT
+Module06/  Cryptography + endpoint defense — hashing, OpenSSL, Telnet vs SSH in Wireshark, CA stores
+Module07/  Protocols / log analysis — NetFlow PT, Snort rules, regex, PCAP exec extraction, 5-tuple isolation, malware / Windows-host investigation, incident handling
+Module08/  Skills Assessment capstone + Skills Exam Report Template (final / practical)
 ```
 
 ## Module walkthrough
